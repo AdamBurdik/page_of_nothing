@@ -5,9 +5,28 @@
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #363636;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+}
+
 body {
     font-family: 'FreeRoad Bold', sans-serif;
     background-color: black;
+    height: 170vh;
 }
 
 .navbar {
@@ -84,4 +103,61 @@ body {
     flex-grow: 1;
     font-size: 25px;
     align-items: normal;
+}
+
+.news-container {
+    position: absolute;
+    display: flex;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    color: red;
+    font-size: 64px;
+    transform: translate(4%, 0);
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    flex-grow: 1;
+    flex: 1 1 60%;
+    flex-direction: row;
+}
+
+.article {
+    display: flex;
+    flex-grow: 1;
+    color: rgb(100, 100, 100);
+    align-items: start;
+    font-size: 32px;
+}
+
+.article-left {
+    max-width: 40%;
+}
+
+.article-right {
+    transform: translate(15%, 0);
+    max-width: 55%;
+}
+
+.code {
+    position: absolute;
+    display: flex;
+    top: 170vh;
+    left: 100%;
+    width: 64px;
+    height: 32px;
+    transform: translate(-100%, 0);
+    color: rgb(15, 15, 15);
+    align-items: end;
+    justify-content: end;
 }
