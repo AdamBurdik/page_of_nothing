@@ -26,7 +26,7 @@
 body {
     font-family: 'FreeRoad Bold', sans-serif;
     background-color: black;
-    height: 170vh;
+    height: 100vh;
 }
 
 .navbar {
@@ -124,41 +124,4 @@ body {
     font-size: 64px;
     transform: translate(4%, 0);
     align-items: center;
-}
-
-.article-container {
-    display: flex;
-    flex-grow: 1;
-    flex: 1 1 60%;
-    flex-direction: row;
-}
-
-.article {
-    display: flex;
-    flex-grow: 1;
-    color: rgb(100, 100, 100);
-    align-items: start;
-    font-size: 32px;
-}
-
-.article-left {
-    max-width: 40%;
-}
-
-.article-right {
-    transform: translate(15%, 0);
-    max-width: 55%;
-}
-
-.code {
-    position: absolute;
-    display: flex;
-    top: 170vh;
-    left: 100%;
-    width: 64px;
-    height: 32px;
-    transform: translate(-100%, 0);
-    color: rgb(12, 12, 12);
-    align-items: end;
-    justify-content: end;
 }
