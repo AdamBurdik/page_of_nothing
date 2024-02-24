@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="{{ url_for('static', filename='styles/index_new.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='styles/index.css') }}" rel="stylesheet">
         <script src="{{ url_for('static', filename='scripts/index.js') }}"></script>
         <title>NOTHING</title>
         <link rel="icon" href="https://cdn.discordapp.com/attachments/1060591233761804398/1140033484577067058/Untitled.png">
@@ -13,17 +13,42 @@
     <body>
 
         <div class="navbar">
-            <div class="navbar-button" onclick="redirectToURL('https://discord.gg/qrj6jpf6kN')">DISCORD</div>
-            <div class="navbar-button" onclick="redirectToURL('https://www.youtube.com/channel/UCRQFmzitIzpZj7A4vb4Iivg')">YOUTUBE</div>
+            <div class="navbar-button" onclick="redirectToURL('https://discord.gg/tbYjdwnJdC')">DISCORD</div>
         </div>
 
-        <div class="title-area">
-            <div class="title text">
-                Simulator
+        <div class="container">
+
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/1133700278370181152/1210576835872690176/390-5_390-min.jpg?ex=65eb1089&is=65d89b89&hm=cb1ad3396869583a1eb42e15fc1a338a47e93ca7ef97b6d07a7df2dadcc105af&" alt="First" class="front-image">
+
+                <div class="content">
+                    <div class="title", style="color: rgb(168, 0, 0);">Králičí Krev</div>
+                    <div class="description">Pre Workout do gymu, se skvělou energii a pumpou</div>
+                    <div class="price-container">
+                        <div class="price-placeholder">Cena:</div>
+                        <div class="price" style="color: rgb(168, 0, 0);">400.-Kč</div>
+                    </div>
+                </div>
+
+                <img src="https://cdn.discordapp.com/attachments/1133700278370181152/1210576851949592586/390-4_390-2-min.jpg?ex=65eb108c&is=65d89b8c&hm=7aea8704a3b7ae420b04ce8b86960558d288c77642b7eaa9170debba3c1d1b2f&" alt="Last", class="back-image">
+
             </div>
-            <div class="sub-title text">
-                Coming
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/1133700278370181152/1210576823293841468/1266_moringa-1090-0730-optimized.jpg?ex=65eb1086&is=65d89b86&hm=7399ada9ddf6afafa41aa55c02d4ad0ba1bbad577552fb94146fd03ee4676566&" alt="First" class="front-image", style="height: 80%; transform: translateX(0%);">
+
+                <div class="content">
+                    <div class="title", style="color: rgb(113, 212, 118);">Kratom</div>
+                    <div class="description">PŘÍJDE BRZY!</div>
+                    <div class="price-container">
+                        <div class="price-placeholder">Cena:</div>
+                        <div class="price" style="color: rgb(113, 214, 118);">Není Určená</div>
+                    </div>
+                </div>
+
+                <img src="https://cdn.discordapp.com/attachments/1133700278370181152/1210576808517304361/1278_lotus-10g-optimized.jpg?ex=65eb1082&is=65d89b82&hm=ec877154dc6129c739b5b76f20e7f61402dce7fcd89ff4c34725db93b34cb488&" alt="Last", class="back-image", style="height: 80%; transform: translateX(0%);">
+
             </div>
+
         </div>
 
     </body>
